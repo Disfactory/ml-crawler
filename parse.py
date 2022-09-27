@@ -19,7 +19,7 @@ if __name__ == '__main__':
         sheet = pickle.load(f)
         f.close()
 
-    year_list = [2017, 2019, 2021]
+    year_list = [2017, 2020]
 
     num_locations = 10 # in total 53319
     for row_id, row in enumerate(sheet.iter_rows(max_row=num_locations)):
